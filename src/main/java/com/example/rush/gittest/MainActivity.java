@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -23,6 +24,8 @@ public class MainActivity extends ActionBarActivity {
                 msg.show();
             }
         });
+        TextView tv=(TextView)findViewById(R.id.lbl);
+        tv.setText("git 就是反人类.");
     }
 
 
